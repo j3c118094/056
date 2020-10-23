@@ -1163,7 +1163,7 @@
 }
 
 /* BREAKPOINT PC */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
 
   .r_filler_1 {
     height: 20vh;
@@ -1176,6 +1176,10 @@
   .r_img {
     height: 50vh;
     margin-right: -15px;
+  }
+
+  .propery {
+    content: "author: j3c118904";
   }
 
   .recruit-title{
@@ -1387,6 +1391,10 @@
     height: 300px;
     width: 425px;
   }
+
+  .propery {
+    content: "author: j3c118904";
+  }
   
   #company-link:hover .company-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/img_company_2.png");
@@ -1586,7 +1594,9 @@
   }
 
   
-
+  .propery {
+    content: "author: j3c118904";
+  }
 
   .carousel-item{
     height: 100vh;
@@ -1755,6 +1765,10 @@ ul.dashed > li {
 ul.dashed > li:before {
   content: "-";
   text-indent: -5px;
+}
+
+.propery {
+  content: "author: j3c118904";
 }
 
 .comment {
