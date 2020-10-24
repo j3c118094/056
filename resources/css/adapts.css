@@ -91,6 +91,14 @@
     height: 200px;
     width: 290px;
   }
+
+  .company-1-m {
+    background-image: url('../images/img_company.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 290px;
+  }
   
   
   .company-2 {
@@ -301,6 +309,7 @@
 
   .nation-wrapper{
     height: 70vh;
+
   }
 
   .VerticalText
@@ -336,9 +345,7 @@
   .navbar-collapse {
       max-height: none;
   }
-  body {
-      margin: 0;
-  }
+
 
   .navbar-toggler {
     border: none;
@@ -1778,3 +1785,10 @@ ul.dashed > li:before {
 .fade {
   opacity: 1;
 }
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+ */
