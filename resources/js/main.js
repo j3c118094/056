@@ -59,11 +59,11 @@
     });
 
     $(window).scroll(function() {
-        var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+        var windowBottom = $(this).scrollTop() + $(this).innerHeight() -200;
         $(".fade").each(function() {
           /* Check the location of each desired element */
           var objectBaseTop = $(this).offset().top;
-          var objectTop = objectBaseTop + (objectBaseTop/10);
+          var objectTop = objectBaseTop;
           
           /* If the element is completely within bounds of the window, fade it in */
           if ((objectTop) < windowBottom) { //object comes into view (scrolling down)
