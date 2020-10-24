@@ -59,7 +59,7 @@
     });
 
     $(window).scroll(function() {
-        var windowBottom = $(this).scrollTop() + $(this).innerHeight() -200;
+        var windowBottom = $(this).scrollTop() + $(this).innerHeight() - 200 ;
         $(".fade").each(function() {
           /* Check the location of each desired element */
           var objectBaseTop = $(this).offset().top;
