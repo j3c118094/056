@@ -62,12 +62,16 @@
         var windowBottom = $(this).scrollTop() + $(this).innerHeight();
         $(".fade").each(function() {
           /* Check the location of each desired element */
-          var objectTop = $(this).offset().top ;
+          var objectBaseTop = $(this).offset().top;
+          var objectTop = objectBaseTop + (objectBaseTop/10);
           
           /* If the element is completely within bounds of the window, fade it in */
-          if (objectTop < windowBottom) { //object comes into view (scrolling down)
-            if ($(this).css("opacity")==0) {$(this).delay(1000).fadeTo(500,1);}
+          if ((objectTop) < windowBottom) { //object comes into view (scrolling down)
+            if ($(this).css("opacity")==0) {$(this).delay(500).fadeTo(500,1);}
+            console.log($(this));
           }
+
+          
         });
       }).scroll(); //invoke scroll-handler on page-load
 })(jQuery);    
